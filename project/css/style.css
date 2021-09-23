@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/background.jpg");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8% 8% 0 0;
+}
+
+.main {
+    margin: 5% auto;
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px gray;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    padding: 0 50px;
+    color: gray;
+}
+
+.music-info {
+    background-color: rgba(196, 193, 193, 0.158);
+    border-radius: 8%;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.music-info i {
+    margin: 5%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 9, 128, 0.123);
+}
+
+.music-details {
+    margin-left: -40px;
+}
+
+.music-details p {
+    color: gray;
+    margin-top: -10px;
+}
+
+.music-info a {
+    margin: 10% 15%;
+    color: rgb(36, 36, 153);
+}
+
+.btn-1 {
+    color: #fff;
+    background-color: rgba(36, 36, 153, 0.747);
+    margin: 20px;
+    width: 340px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(170, 169, 169, 0.979);
+}
+
+.btn-2 {
+    border: none;
+    background-color: #fff;
+    color: gray;
+}
